@@ -10,7 +10,7 @@ convert_duration() {
 }
 
 # Loop through all media files in the current directory
-for file in *.mp4 *.mkv *.avi *.mov *.wmv *.flv *.mp3 *.wav *.webm; do
+for file in *.mp4 *.mkv *.avi *.mov *.wmv *.flv *.mp3 *.wav *.webm *.ts; do
   # Check if the file exists
   if [[ -f "$file" ]]; then
     # Get the duration using ffprobe
